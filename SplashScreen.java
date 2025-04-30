@@ -21,7 +21,7 @@ public class SplashScreen extends Application {
     public void start(Stage splashStage) {
 
         // Load logo image
-        Image image = new Image("file:assets/logo2.jpg");
+        Image image = new Image("file:assets/images/logo2.jpg");
         ImageView imageView = new ImageView(image);
         imageView.setFitWidth(200);
         imageView.setFitHeight(200);

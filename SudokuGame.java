@@ -267,7 +267,7 @@ public class SudokuGame extends Application {
             numberButtons.getChildren().add(numBtn);
         }
 
-        Image eraserImage = new Image("file:assets/erase.png");
+        Image eraserImage = new Image("file:assets/images/erase.png");
         ImageView eraserImageView = new ImageView(eraserImage);
         eraserImageView.setFitWidth(35);
         eraserImageView.setFitHeight(35);

@@ -23,8 +23,8 @@ public class First extends Application {
         welcomeTitle.setFill(Color.web("#FFCCFF"));
 
         // === Game Mode Boxes ===
-        VBox dailyBox = createGameBox("Daily Challenge", "file:assets/daily.jpg", "Play", "#FF6F61", Color.WHITE);
-        VBox classicBox = createGameBox("Classic Sudoku", "file:assets/classic.jpg", "Play", "#6C63FF", Color.WHITE);
+        VBox dailyBox = createGameBox("Daily Challenge", "file:assets/images/daily.jpg", "Play", "#FF6F61", Color.WHITE);
+        VBox classicBox = createGameBox("Classic Sudoku", "file:assets/images/classic.jpg", "Play", "#6C63FF", Color.WHITE);
 
         HBox topRow = new HBox(50, dailyBox, classicBox);
         topRow.setAlignment(Pos.CENTER);
