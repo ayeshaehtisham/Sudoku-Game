@@ -15,6 +15,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+// Splash Screen 
 public class SplashScreen extends Application {
 
     @Override
@@ -70,7 +71,7 @@ public class SplashScreen extends Application {
         pause.setOnFinished(e -> fadeOut.play());
         fadeOut.setOnFinished(e -> {
             splashStage.close();
-            new Main().start(new Stage()); // Your main screen
+            new First().start(new Stage()); // Your main screen
         });
 
         fadeIn.play();

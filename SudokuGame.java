@@ -16,6 +16,8 @@ import javafx.scene.text.*;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+
+//Sudoku Game Screen
 public class SudokuGame extends Application {
 
     private GameState loadedGame;
@@ -98,7 +100,7 @@ public class SudokuGame extends Application {
                     SoundManager.stopBackgroundMusic();
                     SaveLoadManager.saveGame(getCurrentGameState());
                     try {
-                        new Main().start(primaryStage);
+                        new First().start(primaryStage);
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }
