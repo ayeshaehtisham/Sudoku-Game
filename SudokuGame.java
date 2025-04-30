@@ -98,7 +98,7 @@ public class SudokuGame extends Application {
                     SoundManager.stopBackgroundMusic();
                     SaveLoadManager.saveGame(getCurrentGameState());
                     try {
-                        new First().start(primaryStage);
+                        new Main().start(primaryStage);
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }

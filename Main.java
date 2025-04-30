@@ -13,7 +13,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class First extends Application {
+public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {

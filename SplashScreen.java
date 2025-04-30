@@ -70,7 +70,7 @@ public class SplashScreen extends Application {
         pause.setOnFinished(e -> fadeOut.play());
         fadeOut.setOnFinished(e -> {
             splashStage.close();
-            new First().start(new Stage()); // Your main screen
+            new Main().start(new Stage()); // Your main screen
         });
 
         fadeIn.play();
